@@ -5,7 +5,9 @@
 #include <Wire.h>
 #include <AD9833.h>
 #include <LiquidCrystal_I2C.h>
-#include <RotaryEncoder.h>
+#include <Encoder_Polling.h>
+
+
 
 #define pinFsync 10
 #define Light 5 
